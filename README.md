@@ -3,6 +3,8 @@ This Repo created for random learning programs for myself. While I am studying I
 
 ```
 pipes: Learning pipes
+
+Pedantic.c: The program is written to run one specific command: sort.
 ```
 ```
 ReadWrite: How to write to file.txt and read from file.txt
