@@ -12,3 +12,22 @@ ReadWrite: How to write to file.txt and read from file.txt
 ```
 signals: Basic signal handler learning
 ```
+```
+---cppLearning---
+
+dynamicLib: 
+compile ;	
+(1) gcc -shared -fPIC -o libsquare.so square.cpp
+(2) g++ main.cpp 
+(check) nm libsquare.so ->	T __Z6squarei
+                 			U dyld_stub_binder
+run;
+./a.out libsquare.so
+
+example_class:
+compile;
+(1) g++ -shared -fPIC -o game.so player.cpp
+(2) g++ main.cpp  
+run;
+./a.out game.so
+```
